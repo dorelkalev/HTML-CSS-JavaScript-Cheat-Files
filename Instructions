@@ -1,0 +1,19 @@
+1. Insert one HTML component of your choice that includes an ID 
+for Javascript and a class for CSS. Include other parameters, 
+if necessary.
+
+2. If possible, create CSS classes to customize the header 
+and body of the page.
+
+3. Use the class value from the HTML component to styalize
+that component in CSS by making a class for it.
+
+4. If necessary, use the ID value from the HTML component
+to control its logic/events in Javascript (mainly for 
+buttons or forms).
+
+5. Repeat steps 1-4 for all HTML components.
+
+6. Integrate the API or database that will be used for 
+the website. Control the logic for integrating the 
+database or API onto HTML code/onto the website.

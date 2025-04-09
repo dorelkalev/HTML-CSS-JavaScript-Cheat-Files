@@ -34,7 +34,8 @@ Block-Size - Another good style to change the component's surrounding size.
 
 Text-Align - Controls at what position of a whole line the text is at.
 Text-Shadow - Adds a shadow to the font.
-Font-Family - Changes font style.
+Font-Family - Changes font family.
+Font-Size - Changes font size.
 
 --Background--
 
@@ -49,4 +50,16 @@ Border-Image - Sets the border image. Would be nice to include around text or he
 Border-Width - Size of the border.
 Border-Color - If I don't use an image.
 Border-Style - Makes the border more designed.
+
+--Animations (set up using keyframes)--
+
+Transform
+Translate
+Change Color of Texts/Background/Border
+Make the component disappear and appear
+Perspective Origin
+
+--Others--
+
+Z-Index - Use if the website involves multiple layers for components.
 */

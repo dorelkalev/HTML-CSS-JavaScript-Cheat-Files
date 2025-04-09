@@ -5,7 +5,7 @@ if necessary.
 2. If possible, create CSS classes to customize the header 
 and body of the page.
 
-3. Use the class value from the HTML component to styalize
+3. Use the class value from the HTML component to stylize
 that component in CSS by making a class for it.
 
 4. If necessary, use the ID value from the HTML component

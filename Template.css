@@ -1,1 +1,41 @@
+/* 
+------Recommended element selectors to use------
 
+Header - All headers on every page using the CSS file
+should have the same styling. Background-image and styling, 
+text styling, border styling, and if possible, animation(s) 
+are recommended.
+
+Body - All bodies should have the same styling. So that way, as
+an example, if I add multiple text tags on the website, they 
+would all fit my ideal theme for the website without needing to
+tweak each tag's class individually. Unless I want separate styling
+for the specific tag.
+
+------Recommended attributes to use for styling------
+
+--Dividers--
+
+Padding - Controls the amount of space surrounding a component.
+Height - Controls the vertical space surrounding a component.
+Width - Controls the horizontal space surrounding a component.
+Block-Size - Another good style to change the component's surrounding size.
+--Text/Font--
+
+Text-Align - Controls at what position of a whole line the text is at.
+Text-Shadow - Adds a shadow to the font.
+Font-Family - Changes font style.
+
+
+--Background--
+
+Background-Image - Sets the background image. A must for the body, optional for text.
+Background-Repeat - Always select "no-repeat."
+Background-Size - Always select "cover."
+
+--Border--
+
+Border-Image - Sets the border image. Would be nice to include around text or dividers.
+
+
+*/

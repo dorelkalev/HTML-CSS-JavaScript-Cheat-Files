@@ -14,28 +14,39 @@ for the specific tag.
 
 ------Recommended attributes to use for styling------
 
---Dividers--
+--Having multiple components on one line--
+
+Display - Inline would mean if I wanted multiple components in the 
+same line, I would not be able to adjust spacing. Block would mean
+the components must be on different lines. Inline-block would allow
+for both benefits: one line and I can adjust spacing.
+Margin-left/right - Changes how far away from either the first component
+or the right side of the website edge the second component is.
+
+--Spacing Around Component--
 
 Padding - Controls the amount of space surrounding a component.
 Height - Controls the vertical space surrounding a component.
 Width - Controls the horizontal space surrounding a component.
 Block-Size - Another good style to change the component's surrounding size.
+
 --Text/Font--
 
 Text-Align - Controls at what position of a whole line the text is at.
 Text-Shadow - Adds a shadow to the font.
 Font-Family - Changes font style.
 
-
 --Background--
 
 Background-Image - Sets the background image. A must for the body, optional for text.
+Background-Color - If I decide not to use an image.
 Background-Repeat - Always select "no-repeat."
 Background-Size - Always select "cover."
 
 --Border--
 
-Border-Image - Sets the border image. Would be nice to include around text or dividers.
-
-
+Border-Image - Sets the border image. Would be nice to include around text or header/body.
+Border-Width - Size of the border.
+Border-Color - If I don't use an image.
+Border-Style - Makes the border more designed.
 */

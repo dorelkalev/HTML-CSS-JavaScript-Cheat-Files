@@ -59,7 +59,22 @@ connection.query(sql, [`%${example}%`], (err, results) => {
 
 ------How to integrate API (JSON)------
 
-const function = async() => { //JSON is integrated upon function call.
+--Immediately--
+
+(async() => { //JSON is integrated upon function call.
+    const url = '...';
+    const options = {method: 'GET'}; //POST and DELETE are also possible.
+
+    const response = await fetch(url, options);
+    const result = await response.text();
+    const myObj = JSON.parse(result); 
+
+    //do anything with the JSON contents here.
+})();
+
+--When a function is called--
+
+const function = async() => {
     const url = '...';
     const options = {method: 'GET'}; //POST and DELETE are also possible.
 
@@ -68,6 +83,5 @@ const function = async() => { //JSON is integrated upon function call.
     const myObj = JSON.parse(result); 
 
     //function definition here...
-}
-
+    }
 */
